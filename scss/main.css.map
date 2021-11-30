@@ -1,0 +1,22 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "main.scss",
+        "base/_vaiables.scss",
+        "utils/_colors.scss",
+        "utils/_fonts.scss",
+        "utils/_mixins.scss",
+        "utils/_placeholders.scss",
+        "base/_components.scss",
+        "base/_base.scss",
+        "pages/_home.scss",
+        "base/_layout.scss",
+        "layout/_header.scss",
+        "layout/_navigation.scss",
+        "layout/_form.scss",
+        "layout/_footer.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
