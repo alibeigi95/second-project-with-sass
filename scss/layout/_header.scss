@@ -1,0 +1,19 @@
+.header {
+    background-color: $color-warning;
+    @include d-flex(space-between);
+    height: 50px;
+    padding: 10px;
+    &-contact {
+        @include d-flex(center);
+        .mail{
+            margin-right: 20px ;
+        }
+        i{
+            margin-left: 5px;
+        }
+    }
+    &-icons{
+        margin-left:10px ;
+        cursor: pointer;
+    }
+}
