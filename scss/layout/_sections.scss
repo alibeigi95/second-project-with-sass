@@ -44,3 +44,33 @@
     }
 
 }
+
+.course-upcoming{
+    background-color: $color-darkblue;
+    color: $color-white;
+    margin: -20px 40px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+
+    &-text{
+        @include d-flex(center);
+        padding: 20px;
+        span{
+            color: $color-warning;
+        }
+        img{
+            margin-right: 2rem;
+        }
+    }
+
+    .course-counter{
+         
+        text-align: center;
+        font-size: 3rem;
+        padding-bottom: 15px;
+        font-family: sans-serif;
+    }
+}

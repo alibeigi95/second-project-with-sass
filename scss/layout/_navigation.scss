@@ -1,6 +1,6 @@
 .navbar {
     @include d-flex(space-evenly);
-    margin-top: 15px;
+    margin: 15px;
     &-right {
 
         li {
