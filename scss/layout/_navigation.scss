@@ -1,0 +1,50 @@
+.navbar {
+    @include d-flex(space-evenly);
+    margin-top: 15px;
+    &-right {
+
+        li {
+            display: inline-block;
+            margin: 13px;
+
+            a {
+                &:hover {
+                    color: $color-warning;
+
+                }
+            }
+
+        }
+    }
+
+    &-left {
+        input {
+            padding: 5px;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+            border: 1 px solid $color-gray;
+
+
+        }
+
+        i {
+            color: $color-dark;
+            font-size: 20px;
+            margin-left: 10px;
+            cursor: pointer;
+
+
+
+        }
+
+        button {
+            background-color: $color-warning;
+            cursor: pointer;
+        }
+
+    }
+
+}

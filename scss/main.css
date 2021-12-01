@@ -1,8 +1,35 @@
+@font-face {
+  font-family: "iran-sans";
+  src: url("../../fonts/iran-sans.ttf");
+}
+
+button {
+  border: none;
+  color: #262626;
+  font-weight: 800;
+  border-radius: 5px;
+  padding: 10px;
+  width: 105px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+body {
+  font-family: "iran-sans";
+}
+
+a {
+  color: #262626;
+  text-decoration: none;
 }
 
 .header {
@@ -41,7 +68,56 @@
 }
 
 .header-icons {
+  margin-left: 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.header-icons i {
+  margin-right: 5px;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 15px;
+}
+
+.navbar-right li {
+  display: inline-block;
+  margin: 13px;
+}
+
+.navbar-right li a:hover {
+  color: #f3f706;
+}
+
+.navbar-left input {
+  padding: 5px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border: 1 px solid #e6e6e6;
+}
+
+.navbar-left i {
+  color: #262626;
+  font-size: 20px;
   margin-left: 10px;
+  cursor: pointer;
+}
+
+.navbar-left button {
+  background-color: #f3f706;
   cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */
