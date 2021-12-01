@@ -1,0 +1,46 @@
+.slide-show {
+    background-color: $color-liteGray;
+
+    @include d-flex(space-evenly);
+    padding: 15px;
+
+    &-text {
+        text-align: center;
+         
+        h1 {
+            margin: 20px 0;
+            letter-spacing: 2px;
+
+            span {
+                display: inline-block;
+                background-color: $color-Primary;
+                padding: 8px;
+                margin-top: 15px;
+                color: $color-white;
+                border-radius: 3px;
+                -webkit-border-radius: 3px;
+                -moz-border-radius: 3px;
+                -ms-border-radius: 3px;
+                -o-border-radius: 3px;
+            }
+
+        }
+        button{
+            background-color: $color-warning;
+            font-size: 16px;
+            font-family: "iran-sans"; 
+            width: 170px;
+            cursor: pointer;
+            margin-top: 30px;
+            margin-left: 10px;
+            &:last-of-type{
+                padding: 8px;
+                background: none;
+                border: 1px solid $color-gray ;
+            }
+
+        }
+        
+    }
+
+}
