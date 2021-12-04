@@ -6,7 +6,7 @@
 
     &-text {
         text-align: center;
-         
+
         h1 {
             margin: 20px 0;
             letter-spacing: 2px;
@@ -25,27 +25,29 @@
             }
 
         }
-        button{
+
+        button {
             background-color: $color-warning;
             font-size: 16px;
-            font-family: "iran-sans"; 
+            font-family: "iran-sans";
             width: 170px;
             cursor: pointer;
             margin-top: 30px;
             margin-left: 10px;
-            &:last-of-type{
+
+            &:last-of-type {
                 padding: 8px;
                 background: none;
-                border: 1px solid $color-gray ;
+                border: 1px solid $color-gray;
             }
 
         }
-        
+
     }
 
 }
 
-.course-upcoming{
+.course-upcoming {
     background-color: $color-darkblue;
     color: $color-white;
     margin: -20px 40px;
@@ -55,22 +57,53 @@
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
 
-    &-text{
+    &-text {
         @include d-flex(center);
         padding: 20px;
-        span{
+
+        span {
             color: $color-warning;
         }
-        img{
+
+        img {
             margin-right: 2rem;
         }
     }
 
-    .course-counter{
-         
+    .course-counter {
+
         text-align: center;
         font-size: 3rem;
         padding-bottom: 15px;
         font-family: sans-serif;
     }
+}
+
+.courses {
+
+
+    margin-top: 2rem;
+
+    h1 {
+        text-align: center;
+        padding: 20px;
+        color: $color-lightblue;
+        font-family: "iran-sans"
+    }
+
+    .cards {
+        @include d-flex(space-between);
+        margin: 40px;
+        flex-wrap: wrap;
+    }
+}
+
+.published {
+    @include d-flex(space-between);
+
+    .helper{
+        
+    }
+
+
 }
