@@ -99,8 +99,10 @@
 }
 
 .published {
+    background-image: url();
     @include d-flex(space-between);
-
+    margin: 15px 40px;
+    text-align: center;
     .helper{
         
     }
