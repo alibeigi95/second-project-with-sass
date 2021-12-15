@@ -99,12 +99,22 @@
 }
 
 .published {
-    background-image: url();
+    background-color: $color-liteGray;
     @include d-flex(space-between);
+    padding: 15px 40px;
     margin: 15px 40px;
     text-align: center;
+    height: 400px;
     .helper{
-        
+        margin-top: 20px;
+        h1{
+            margin: 10px 0 ;
+            font-family: sans-serif;
+
+        }
+        p{
+            color: $color-lightgreen;
+        }
     }
 
 
