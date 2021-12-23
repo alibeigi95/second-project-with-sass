@@ -55,7 +55,7 @@ a {
 }
 
 .header {
-  background-color: #f3f706;
+  background-color: #F2F013;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -118,7 +118,7 @@ a {
 }
 
 .navbar-right li a:hover {
-  color: #f3f706;
+  color: #F2F013;
 }
 
 .navbar-left input {
@@ -139,8 +139,44 @@ a {
 }
 
 .navbar-left button {
-  background-color: #f3f706;
+  background-color: #F2F013;
   cursor: pointer;
+}
+
+.footer {
+  background-color: #2F86A6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 400px;
+  padding: 10px 20px;
+}
+
+.footer-right {
+  margin-right: 30px;
+}
+
+.footer li {
+  list-style: square;
+  color: #e6e6e6;
+  margin-bottom: 15px;
+}
+
+.footer-left img {
+  width: 250px;
+}
+
+.copy-right {
+  background-color: #F2F013;
+  height: 50px;
+  padding: 10px;
+  margin: -40px 40px 0 40px;
 }
 
 .slide-show {
@@ -168,7 +204,7 @@ a {
 
 .slide-show-text h1 span {
   display: inline-block;
-  background-color: #0af852;
+  background-color: #2FDD92;
   padding: 8px;
   margin-top: 15px;
   color: #fff;
@@ -180,7 +216,7 @@ a {
 }
 
 .slide-show-text button {
-  background-color: #f3f706;
+  background-color: #F2F013;
   font-size: 16px;
   font-family: "iran-sans";
   width: 170px;
@@ -196,7 +232,7 @@ a {
 }
 
 .course-upcoming {
-  background-color: #00098a;
+  background-color: #2F86A6;
   color: #fff;
   margin: -20px 40px;
   border-radius: 8px;
@@ -220,7 +256,7 @@ a {
 }
 
 .course-upcoming-text span {
-  color: #f3f706;
+  color: #F2F013;
 }
 
 .course-upcoming-text img {
@@ -295,6 +331,6 @@ a {
 }
 
 .published .helper p {
-  color: #37a321;
+  color: #34BE82;
 }
 /*# sourceMappingURL=main.css.map */

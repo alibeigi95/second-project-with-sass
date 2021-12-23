@@ -1,0 +1,28 @@
+.footer {
+    background-color: $color-darkblue;
+    @include d-flex(space-between);
+    height: 400px;
+    padding: 10px 20px;
+
+    &-right{
+        margin-right: 30px;
+    }
+
+    li {
+        list-style: square;
+        color: $color-liteGray;
+        margin-bottom: 15px;
+    }
+    &-left{
+        img{
+            width: 250px;
+        }
+    }
+}
+
+.copy-right{
+    background-color: $color-warning;
+    height: 50px;
+    padding: 10px;
+    margin: -40px 40px 0 40px;
+}
