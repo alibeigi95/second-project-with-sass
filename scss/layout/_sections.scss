@@ -95,6 +95,16 @@
         @include d-flex(space-between);
         margin: 40px;
         flex-wrap: wrap;
+
+        .course-card {
+            img {
+                border-radius: 10px 10px 0 0;
+                -webkit-border-radius: 10px 10px 0 0;
+                -moz-border-radius: 10px 10px 0 0;
+                -ms-border-radius: 10px 10px 0 0;
+                -o-border-radius: 10px 10px 0 0;
+            }
+        }
     }
 }
 
@@ -105,14 +115,17 @@
     margin: 15px 40px;
     text-align: center;
     height: 400px;
-    .helper{
+
+    .helper {
         margin-top: 20px;
-        h1{
-            margin: 10px 0 ;
+
+        h1 {
+            margin: 10px 0;
             font-family: sans-serif;
 
         }
-        p{
+
+        p {
             color: $color-lightgreen;
         }
     }

@@ -260,6 +260,14 @@ a {
       flex-wrap: wrap;
 }
 
+.courses .cards .course-card img {
+  border-radius: 10px 10px 0 0;
+  -webkit-border-radius: 10px 10px 0 0;
+  -moz-border-radius: 10px 10px 0 0;
+  -ms-border-radius: 10px 10px 0 0;
+  -o-border-radius: 10px 10px 0 0;
+}
+
 .published {
   background-color: #e6e6e6;
   display: -webkit-box;
@@ -287,6 +295,6 @@ a {
 }
 
 .published .helper p {
-  color: #94e783;
+  color: #37a321;
 }
 /*# sourceMappingURL=main.css.map */
